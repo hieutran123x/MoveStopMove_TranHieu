@@ -7,7 +7,7 @@ using UnityEngine;
 /// <summary>
 /// Attach the script to the off screen indicator panel.
 /// </summary>
-[DefaultExecutionOrder(-1)]
+[DefaultExecutionOrder(0)]
 public class OffScreenIndicator : MonoBehaviour
 {
     [Range(0.5f, 0.9f)]
@@ -65,6 +65,7 @@ public class OffScreenIndicator : MonoBehaviour
                 indicator.SetDistanceText(distanceFromCamera); //Set the distance text for the indicator.
                 indicator.transform.position = screenPosition; //Sets the position of the indicator on the screen.
                 indicator.SetTextRotation(Quaternion.identity); // Sets the rotation of the distance text of the indicator.
+                
             }
         }
     }
