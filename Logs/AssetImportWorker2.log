@@ -1,0 +1,1465 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.0f1 (d0d63d039a6f) revision 13686333'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/hieub/MoveStopMove_TranHieu
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56979
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/hieub/MoveStopMove_TranHieu
+C:/Users/hieub/MoveStopMove_TranHieu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5848] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1088993349 [EditorId] 1088993349 [Version] 1048832 [Id] WindowsEditor(7,HieuTran) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5848] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 1088993349 [EditorId] 1088993349 [Version] 1048832 [Id] WindowsEditor(7,HieuTran) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.0f1 (d0d63d039a6f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/hieub/MoveStopMove_TranHieu/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.4665
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003848 seconds.
+- Loaded All Assemblies, in  0.425 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 248 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (182ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (361ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\hieub\MoveStopMove_TranHieu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\hieub\MoveStopMove_TranHieu\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.863 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.923 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (312ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (449ms)
+		LoadAssemblies (328ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (156ms)
+			BuildScriptInfoCaches (21ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (924ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (709ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (558ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3219 unused Assets / (0.9 MB). Loaded Objects now: 3802.
+Memory consumption went from 121.6 MB to 120.6 MB.
+Total: 6.073100 ms (FindLiveObjects: 0.396900 ms CreateObjectMapping: 0.278400 ms MarkObjects: 4.452500 ms  DeleteObjects: 0.943800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 157546.979088 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy4_1.png
+  artifactKey: Guid(7a594c63f9302444a8ac52408791a2ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy4_1.png using Guid(7a594c63f9302444a8ac52408791a2ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6f06ba58f865ebfc2730682f20d6bfb') in 0.1670431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off_2.png
+  artifactKey: Guid(c0b2b1261862a624192b6c91d0328c0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/_Other/Frame-Mode_Off_2.png using Guid(c0b2b1261862a624192b6c91d0328c0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fa11d0bd2d8ddfb069d2f67107bebca') in 0.0449019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced2.png
+  artifactKey: Guid(5566744cbd519894d8ba702843b96697) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/_Other/circle_Sliced2.png using Guid(5566744cbd519894d8ba702843b96697) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22d575a9ec963ebf8fe147f76f10871') in 0.0341769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy2_1.png
+  artifactKey: Guid(7d518372af454cc4ab121e9ba0a3b1a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy2_1.png using Guid(7d518372af454cc4ab121e9ba0a3b1a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a780e42d6ec59078708d04e7f50300da') in 0.0295557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy4_2.png
+  artifactKey: Guid(aff405bf1e566ee4d84f5891874471aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy4_2.png using Guid(aff405bf1e566ee4d84f5891874471aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ece43745a3c5f2662f29e79c92fac945') in 0.030977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Uzi_1.png
+  artifactKey: Guid(ff04786841d7a76478342ad738f379e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Uzi_1.png using Guid(ff04786841d7a76478342ad738f379e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '073389bc07a52dc293928331a4e5ff77') in 0.0350331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Boomerang_2.png
+  artifactKey: Guid(442287b825e5db34e8f0980050254e25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Boomerang_2.png using Guid(442287b825e5db34e8f0980050254e25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9b901397b433b7a87da24dee0dfd01fd') in 0.0272089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy2_2.png
+  artifactKey: Guid(f68eb5aa3725b6645a2fc93296992564) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Candy2_2.png using Guid(f68eb5aa3725b6645a2fc93296992564) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a565873959598b0e379f48e932198320') in 0.0319343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png
+  artifactKey: Guid(cfe7765c6dc1f9f418bfc650a10470b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Share/Img-Frame_SocialSharing-2.png using Guid(cfe7765c6dc1f9f418bfc650a10470b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e773f85e1ae946fe5c25f2be2e92054f') in 0.0404501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/Count 2.wav
+  artifactKey: Guid(93867221618e46c4686aa01b3a81a4be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/Count 2.wav using Guid(93867221618e46c4686aa01b3a81a4be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '088ac3d985a4a1a9a34ca5b4fd87bc03') in 0.0530898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit2.wav
+  artifactKey: Guid(f8012943eda4a764283e9ff759c0465e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit2.wav using Guid(f8012943eda4a764283e9ff759c0465e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47fe83a93afabe2651bee3440168cde7') in 0.0502124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/btn_click.wav
+  artifactKey: Guid(5d4dd3bece804aa4299aa76d529c9394) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/btn_click.wav using Guid(5d4dd3bece804aa4299aa76d529c9394) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd03b6531168ca8fc065d87fc30cc1533') in 0.0504544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 2 fix.wav
+  artifactKey: Guid(fafa154a860db6544b918cf2a94aae3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 2 fix.wav using Guid(fafa154a860db6544b918cf2a94aae3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e084e287ec1256032630a39d4b12d8a') in 0.0563716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 1.wav
+  artifactKey: Guid(b24beef510a7e9046a0a7c192f112337) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 1.wav using Guid(b24beef510a7e9046a0a7c192f112337) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad39a567b131b29705e95658df55bcd3') in 0.0558946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 4 fix.wav
+  artifactKey: Guid(820deeb9476140247ac1b86e9a953197) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/fix/Nem vu khi 4 fix.wav using Guid(820deeb9476140247ac1b86e9a953197) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76389b58082be6eb07ac7e8fc436005c') in 0.0627864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Ico#7.3.png
+  artifactKey: Guid(e949e31a829aafb49abe7aa6108ab521) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Ico#7.3.png using Guid(e949e31a829aafb49abe7aa6108ab521) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8426ec1abbad0e83cff6ecd18c95ff9c') in 0.0338368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/Count 1.wav
+  artifactKey: Guid(fc6e52864f743e140b6ae3631dbb6cff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/Count 1.wav using Guid(fc6e52864f743e140b6ae3631dbb6cff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e72d07543f64d9162bed30c12102b781') in 0.0450476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56132ece090532afd8dde5ac7b40244a') in 0.0207564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_Game/Materials/Material #0.mat
+  artifactKey: Guid(b7523a0d0ab118f47a99ee030c54b39f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Materials/Material #0.mat using Guid(b7523a0d0ab118f47a99ee030c54b39f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3096ffd67208551b5ad58824033edbc9') in 0.0273012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/Materials/beach-sky.mat
+  artifactKey: Guid(3da40e831eca1e44b98e6fd32518d0e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/Materials/beach-sky.mat using Guid(3da40e831eca1e44b98e6fd32518d0e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7df0483fbe2fac26eacf01befb1154e') in 0.0167392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bb3a2875360b617db6b773d6a38539f') in 0.0110332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab
+  artifactKey: Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Prefabs/Fixed Joystick.prefab using Guid(aaa2c939c0359ac4dbce3f49e8b90252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84a905c59540d90bcd1aef88729599b0') in 0.0612036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit8.wav
+  artifactKey: Guid(ae6b17992c8263b46b28a49ccd7dcb34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit8.wav using Guid(ae6b17992c8263b46b28a49ccd7dcb34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c17e8d53bc8af9f46b4feb8e2a8cde46') in 0.0538423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit7.wav
+  artifactKey: Guid(1a54a9247142bfa4d9a68d974b417a5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit7.wav using Guid(1a54a9247142bfa4d9a68d974b417a5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5ca3c2bee1f2e2cb273cb98d16d85d3') in 0.0486497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7be493dace17205025eb53693c1d7c30') in 0.0291161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit6.wav
+  artifactKey: Guid(2a0f51b9a665a4949bcfe4cdff67b213) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit6.wav using Guid(2a0f51b9a665a4949bcfe4cdff67b213) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd30828fda74d61616b1001d9468e527') in 0.0597562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/GamePlay/download.png
+  artifactKey: Guid(55a2370c46191614eaccd06cc189f2b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/GamePlay/download.png using Guid(55a2370c46191614eaccd06cc189f2b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22055eb137c5f2df1236da051da0871') in 0.0380084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs
+  artifactKey: Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Scripts/Joysticks/DynamicJoystick.cs using Guid(ba0d0e7a039f526499c356a3c5cd6d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaf1ebddfefc2ab4e67cbf0a1e3fbb00') in 0.0114997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png
+  artifactKey: Guid(c0e85ffc93ead054f8c67b9085091a5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Loading/Img-Axe#1_Loading.png using Guid(c0e85ffc93ead054f8c67b9085091a5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96d63c15ef6dd1ed4ac75c3d0450c12a') in 0.0358939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Fat.controller
+  artifactKey: Guid(1a2928c26c8f69f4c9dc34643ca74f82) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Animator/Ani_Zombie_Fat.controller using Guid(1a2928c26c8f69f4c9dc34643ca74f82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27b8ed89d9ae2633e4a3768cb47e9cd5') in 0.0182423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png
+  artifactKey: Guid(f353d42d1db27ff42b78b28efd86b316) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png using Guid(f353d42d1db27ff42b78b28efd86b316) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c0f81dcfdc377aedf872dc0debee263') in 0.0358218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
+  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dcbac246b17c9ca988845ccc130ffab9') in 0.0343531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit5.wav
+  artifactKey: Guid(68eecfc0b9a04094eb32c6e075ed4b21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit5.wav using Guid(68eecfc0b9a04094eb32c6e075ed4b21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1a12c25dff3be22135940400e1465a6') in 0.0572875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/size_up5.wav
+  artifactKey: Guid(bf5200a24b9fd9d4eb4780cb559e509e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/size_up5.wav using Guid(bf5200a24b9fd9d4eb4780cb559e509e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eed29edca2ef86b6f789cadeb4ef0e11') in 0.0582674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad7924fbcc53beac7fb5f356eaf1a496') in 0.0393205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/CW/LeanPool/package.json
+  artifactKey: Guid(fb0683762a5624a4c811d418fcfa2781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/package.json using Guid(fb0683762a5624a4c811d418fcfa2781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9914f07b0b6c63533f3c1f5765718e23') in 0.0138001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Plugins/CW/LeanCommon/package.json
+  artifactKey: Guid(5b161f7eaaf64aa40ba67688774eb06f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/package.json using Guid(5b161f7eaaf64aa40ba67688774eb06f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77353bbfdeaa811af93aa6e9d093c732') in 0.0130482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Game/Prefabs/Hat/Arrow.prefab
+  artifactKey: Guid(d2a749afddf98ff4c833814f219b2d50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Prefabs/Hat/Arrow.prefab using Guid(d2a749afddf98ff4c833814f219b2d50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd56f220802046816f99cb9877eea944') in 0.0275823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Game/Materials/Image/Cowboy.png
+  artifactKey: Guid(01ebcf0cde7e5244c825ab2eca068786) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Materials/Image/Cowboy.png using Guid(01ebcf0cde7e5244c825ab2eca068786) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '141660476f7ad2c2b3f686d33af4403c') in 0.0348615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Game/Prefabs/Bullet/boomerang.prefab
+  artifactKey: Guid(0548d36ce9d50d94b8bc5bf67bb20dd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Prefabs/Bullet/boomerang.prefab using Guid(0548d36ce9d50d94b8bc5bf67bb20dd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91e6fc6ad98f082ca4fda2b03bd3e2b7') in 0.0267656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a9441a1d1219745eda4c0e60b3e464e') in 0.0388791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Game/Materials/Image/Crown.png
+  artifactKey: Guid(5e3bfe009738a5e418e475851c6122d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Materials/Image/Crown.png using Guid(5e3bfe009738a5e418e475851c6122d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35c8bd498cd4d786ff211c7d63698ddf') in 0.0376213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Game/Materials/Image/Hat_Cap.png
+  artifactKey: Guid(16c1b5207b0f4bf4aa8307bcdbfeabe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Materials/Image/Hat_Cap.png using Guid(16c1b5207b0f4bf4aa8307bcdbfeabe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62123b14c66d8aaff8ed76d1a6896979') in 0.0275413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Game/Prefabs/Hat/Ear.prefab
+  artifactKey: Guid(aca236bb828ac0a49811acd4d62ed326) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Prefabs/Hat/Ear.prefab using Guid(aca236bb828ac0a49811acd4d62ed326) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d49405eef1c79073a6e300e693867ce') in 0.0239812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
+  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55cda0ffed1e37589ce5408a6730efca') in 0.0365926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Game/Materials/Image/Hat.png
+  artifactKey: Guid(759595004aac5ab4faae9679c69cea13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Materials/Image/Hat.png using Guid(759595004aac5ab4faae9679c69cea13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1782949df7761fb4b76831e7e1e6bcc') in 0.0308882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png
+  artifactKey: Guid(40cad17444efafe488b01a6d714600a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/_Other/Gold.png using Guid(40cad17444efafe488b01a6d714600a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e9177a472e4ca46e8928d56c08e9105') in 0.02928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c514a469cf9c3d1e664d02d0b7afbf2') in 0.0300858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba41f35be5a2e05be77cd44c12b1ef57') in 0.0331887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd205b173b2c2b20d4bac0f2a1ce4e1e') in 0.0426036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/_Other/Frame_PopMode.png
+  artifactKey: Guid(15fa5543f0a188549a289d8e20d54d37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/_Other/Frame_PopMode.png using Guid(15fa5543f0a188549a289d8e20d54d37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c0ccee1955e1e42532900cb1f525969') in 0.0322862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao.png
+  artifactKey: Guid(e6cdcdd7f2a0d8b4fb11ca94d0d7d775) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/dabao.png using Guid(e6cdcdd7f2a0d8b4fb11ca94d0d7d775) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5c6380cb456eb463fda5bca3a367ddb') in 0.0283145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion.png
+  artifactKey: Guid(e119361a0d7fd344eb37842037719c31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/onion.png using Guid(e119361a0d7fd344eb37842037719c31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77cc6a7b49b8ee0c32805fa282db6af5') in 0.0298271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Game/Scripts/Manager/GameManager.cs
+  artifactKey: Guid(5f28d45e70504794689fd4e8ea41f65d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Manager/GameManager.cs using Guid(5f28d45e70504794689fd4e8ea41f65d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd66ec22920b641f3d94245a841bc0862') in 0.0125836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow.png
+  artifactKey: Guid(006435c12055ced4384c81603df71e0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/rainbow.png using Guid(006435c12055ced4384c81603df71e0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31d361dda05c1857eabbf48a68deb8cd') in 0.0298751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Game/Prefabs/Hat/Hat_Cap.prefab
+  artifactKey: Guid(634c76e3dc795814ea0214f982df96eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Prefabs/Hat/Hat_Cap.prefab using Guid(634c76e3dc795814ea0214f982df96eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18afc993b7e4b67d3a63c344396f2ddd') in 0.0224735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Arrow.fbx
+  artifactKey: Guid(67c567da09b9c714b9b2a5b7f471fd7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Arrow.fbx using Guid(67c567da09b9c714b9b2a5b7f471fd7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad628a2516517845351a420431da0632') in 0.0438621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Game/Scripts/Data/DataManager.cs
+  artifactKey: Guid(6cd0846fb1a247c4d94b823ed3053873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Data/DataManager.cs using Guid(6cd0846fb1a247c4d94b823ed3053873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd9ef4163545d24f3902dee2afe44442') in 0.0135759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Ear.fbx
+  artifactKey: Guid(c1c5ce61f93679c4fb788a3adf1c9064) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Ear.fbx using Guid(c1c5ce61f93679c4fb788a3adf1c9064) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e01a8f4379eb535d169fcf22d683bf72') in 0.0269869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Game/Scripts/Level/LevelDataSO.cs
+  artifactKey: Guid(3caf2e368816a344e8f0d9733fb324f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Level/LevelDataSO.cs using Guid(3caf2e368816a344e8f0d9733fb324f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f270c1916757f1e68def6d8e90437b4c') in 0.0115491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/_Game/Scripts/Data/UserData.cs
+  artifactKey: Guid(1ee2f02c0ec7b4f49bfa6c96969a3ca3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Data/UserData.cs using Guid(1ee2f02c0ec7b4f49bfa6c96969a3ca3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72faecacdea8720e67d72b863ea7d13c') in 0.0087114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat.fbx
+  artifactKey: Guid(f41c08491d7377d4485a120303447111) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Hair/Hat.fbx using Guid(f41c08491d7377d4485a120303447111) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7a0d7c28a6c2c5b6d728c4d352f1e99') in 0.0280737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi.png
+  artifactKey: Guid(60bbae7447731bc4f8f7921a7b846832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/chambi.png using Guid(60bbae7447731bc4f8f7921a7b846832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2370a932e3d4371f9c033ee782780052') in 0.0329533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Game/Scripts/Data/SaveManager.cs
+  artifactKey: Guid(a342e364f003931499cdb2736a1693da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Data/SaveManager.cs using Guid(a342e364f003931499cdb2736a1693da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e404f0613e6618f7b67e7248a71d0e5d') in 0.0106614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/_Game/Scripts/Manager/SkinShopManager.cs
+  artifactKey: Guid(ed6906e9bb3c4d046ae4da7b104b5ae2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Manager/SkinShopManager.cs using Guid(ed6906e9bb3c4d046ae4da7b104b5ae2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ad3d4200a314daced903339ea42133') in 0.0093191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg
+  artifactKey: Guid(339c36e7bb99a51498928de75e8d45a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/List_Abilities/Img-Piercing_Ability.jpg using Guid(339c36e7bb99a51498928de75e8d45a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dea0656bb2c5b9e44cec74097f364be') in 0.0368003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Game/Scripts/StateMachine/IdleState.cs
+  artifactKey: Guid(d18053cc88b58b34e9c8c97c109b15ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/StateMachine/IdleState.cs using Guid(d18053cc88b58b34e9c8c97c109b15ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd76943f7ad870bccefe7e18977c5b744') in 0.0104693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/Weapon/knife.fbx
+  artifactKey: Guid(ecd6cb62ed8350e498f9e25d15d9caa3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/Weapon/knife.fbx using Guid(ecd6cb62ed8350e498f9e25d15d9caa3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae80d35577701a10885eaf7bc93e8b6d') in 0.0307203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac4b70ece5d0bbf19a16ea33b813aa2d') in 0.042356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png
+  artifactKey: Guid(4e58f37568590424c84e23ed57de844f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png using Guid(4e58f37568590424c84e23ed57de844f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5127c976363317b67705b2b4ff16ee8') in 0.0425205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 2.wav
+  artifactKey: Guid(90f409deb2ebf2449937a3db76580002) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/fix/Countdown fix 2.wav using Guid(90f409deb2ebf2449937a3db76580002) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '230024c0e0c76063f179442aee48535c') in 0.0530516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Boomerang_2.mat
+  artifactKey: Guid(bc2419feead111343b28c350cd337d8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Boomerang_2.mat using Guid(bc2419feead111343b28c350cd337d8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed22e71f817328681dfb1d9df8008b1e') in 0.0151465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Game/Scripts/Data/Hat/HatDataSO.cs
+  artifactKey: Guid(cb58ab0ed85d4444c975998ccaea41f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Data/Hat/HatDataSO.cs using Guid(cb58ab0ed85d4444c975998ccaea41f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3451053d97b84f4752fc76793d01a315') in 0.0115602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/quan.png
+  artifactKey: Guid(49de162ab1ab20c4d88ad87f70ad13af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/quan.png using Guid(49de162ab1ab20c4d88ad87f70ad13af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a23dff6d5af4248d91db83685aed28f5') in 0.0327953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/_Game/Scripts/Data/Weapon/WeaponDataSO.asset
+  artifactKey: Guid(3721f13a0ca139949b4f9d27a5a3837c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Game/Scripts/Data/Weapon/WeaponDataSO.asset using Guid(3721f13a0ca139949b4f9d27a5a3837c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c23e46d7db33060c541dd936323d17b1') in 0.0176419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe0_2.mat
+  artifactKey: Guid(f82ac0deb24611d4b8bf00209308a7df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe0_2.mat using Guid(f82ac0deb24611d4b8bf00209308a7df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f52095b97b7303191c0356f572f4e0b9') in 0.0217008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/Skull.mat
+  artifactKey: Guid(1a6f8498e8567fc4388d4aa977da7ddc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/Skull.mat using Guid(1a6f8498e8567fc4388d4aa977da7ddc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f72f58f092a5d753c51075d52f4a4a2e') in 0.0153381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Uzi_1.mat
+  artifactKey: Guid(fe70bad047dbcef429a049f7d6dec360) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Uzi_1.mat using Guid(fe70bad047dbcef429a049f7d6dec360) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09d93919f4500cbf053d8def4756b9ee') in 0.0215821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/CW/LeanPool/Examples/02 Send Message.unity
+  artifactKey: Guid(0c9d4f038e8ea4348a27f124174bf225) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Examples/02 Send Message.unity using Guid(0c9d4f038e8ea4348a27f124174bf225) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1db425f7b9a81424f3f2b2fbd0569d5d') in 0.0196594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/rainbow.mat
+  artifactKey: Guid(18433c8b413d68a4d82741143899cfba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/rainbow.mat using Guid(18433c8b413d68a4d82741143899cfba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b509099e6b0dbe670addc1e73fc5098') in 0.0162667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/CW/Shared/Common/package.json
+  artifactKey: Guid(3852ade87e749cc42b40760c9670fc6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/package.json using Guid(3852ade87e749cc42b40760c9670fc6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46715a7a73f39dbc04ae1d3402c05084') in 0.0129834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe1_2.mat
+  artifactKey: Guid(5165ff94618e88449967d821627b1837) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe1_2.mat using Guid(5165ff94618e88449967d821627b1837) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b31ef0fb9d9d4117bf8e48fcf4db455c') in 0.0213499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/face.png
+  artifactKey: Guid(689d52942dc71174fadb78bf5de269d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/face.png using Guid(689d52942dc71174fadb78bf5de269d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0921ee59568cbfa6b19f9867f20247a') in 0.0336162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Candy4_2.mat
+  artifactKey: Guid(84ff0464544a0ea45a3a7c3e3c502703) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Candy4_2.mat using Guid(84ff0464544a0ea45a3a7c3e3c502703) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '682e943ec41288381b094cc490e48621') in 0.015258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose.png
+  artifactKey: Guid(d4642437938dd024ca0df8f1f95e62d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose.png using Guid(d4642437938dd024ca0df8f1f95e62d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce8991484aa3d7a7011a5c4488983c90') in 0.0336657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png
+  artifactKey: Guid(58ff5176b10a4704f86c5f453c1365e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Ico-Checkin_Survival.png using Guid(58ff5176b10a4704f86c5f453c1365e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3c67510fc0787b90d3cbb80621003e3') in 0.0348548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/comy.mat
+  artifactKey: Guid(c8682f4b2ef0eec4b8f0edd1dd23511c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/Materials/comy.mat using Guid(c8682f4b2ef0eec4b8f0edd1dd23511c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef7a2b077b3b2e6a58d80cdc541f5994') in 0.0143662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/Icon_Devil.png
+  artifactKey: Guid(591bf6bd34c3a3c4e9143ba55a6c7d7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 1/Icon_Devil.png using Guid(591bf6bd34c3a3c4e9143ba55a6c7d7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84cba16a15561e178c62603c9017c716') in 0.0343412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Knife_2.mat
+  artifactKey: Guid(8acdad595417f234588fb79571f0f5e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Knife_2.mat using Guid(8acdad595417f234588fb79571f0f5e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c71db034072507f07ac484d3c99d533f') in 0.0139137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/candy1_1.mat
+  artifactKey: Guid(f7267da931fceb8419c4e9cf44036873) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/candy1_1.mat using Guid(f7267da931fceb8419c4e9cf44036873) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a9c86193a1f603bc01886a29c448174') in 0.0164797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe0.mat
+  artifactKey: Guid(4c325eee827cba147b894c40f2759fd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Axe0.mat using Guid(4c325eee827cba147b894c40f2759fd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '810c13285c565f60d4c700408c28b500') in 0.0150281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Range_Upgrade.png
+  artifactKey: Guid(825aca86ff0cc8a4fbe86a1a88194c89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/FormZombieCity/Ico-Range_Upgrade.png using Guid(825aca86ff0cc8a4fbe86a1a88194c89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cb8d8827389372e571a4987269da123') in 0.0404992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#2_Rank.png
+  artifactKey: Guid(97c9fffe0fa463943842e5057466acae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/FormMainMenu/Frame#2_Rank.png using Guid(97c9fffe0fa463943842e5057466acae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02ebfd81c317297dafbad3ef2274013f') in 0.0269771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+  artifactKey: Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png using Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26b9b83ebd9b9ed9fb778d1a30bc62cc') in 0.0356533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Fonts/VarelaRound-Regular.ttf
+  artifactKey: Guid(da9a51ce28f0d7443a5bcbdbe04c4f4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Fonts/VarelaRound-Regular.ttf using Guid(da9a51ce28f0d7443a5bcbdbe04c4f4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef95de929d61baf29850b2ceab1467ae') in 0.0277366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead13.wav
+  artifactKey: Guid(9516d75981920544abf29839cf660b6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead13.wav using Guid(9516d75981920544abf29839cf660b6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12fa889f833af26bfd87d142da6aff6f') in 0.0600063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody.cs
+  artifactKey: Guid(a47bac80a21a18b4b91b990df1cb4e7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody.cs using Guid(a47bac80a21a18b4b91b990df1cb4e7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '941683168553853e3736475f5ad1e90d') in 0.0120662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Label.prefab
+  artifactKey: Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Label.prefab using Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd53c190fa159932d8d94da569900b702') in 0.0468711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead.wav
+  artifactKey: Guid(7e5049f6d9e8d9649bde51a52ccd84cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/man/stickman_dead.wav using Guid(7e5049f6d9e8d9649bde51a52ccd84cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfef746c1040f5970864aa42477a3ded') in 0.0571278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Materials/Grey.mat
+  artifactKey: Guid(eb19d4e9e6dff424daabfbc351d2dde1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Materials/Grey.mat using Guid(eb19d4e9e6dff424daabfbc351d2dde1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '654f26fae2a765efdf4473acab14f55a') in 0.0181852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Deadpood.jpg
+  artifactKey: Guid(a3ff2f99f0cfd604792f99788a31f3a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 4/Deadpood.jpg using Guid(a3ff2f99f0cfd604792f99788a31f3a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f30026dd47d534c6ca1eefbfe98ad47e') in 0.0348655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Materials/Purple.mat
+  artifactKey: Guid(2c57751e748651a4c9bd8f9f48e8cf5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Materials/Purple.mat using Guid(2c57751e748651a4c9bd8f9f48e8cf5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13a8d80444309571e5ba05295e470d1f') in 0.0172329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Plugins/CW/LeanPool/Examples/Prefabs/Rigidbody Cube + LeanPooledRigidbody.prefab
+  artifactKey: Guid(87b4c5accc768904c86c03a32b2246fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Examples/Prefabs/Rigidbody Cube + LeanPooledRigidbody.prefab using Guid(87b4c5accc768904c86c03a32b2246fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60ec7abd2961d3806e4eccf216ea3224') in 0.0316663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Extras/Scripts/LeanFormatString.cs
+  artifactKey: Guid(b7efa857135ee3242bb57cd8a91087c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Extras/Scripts/LeanFormatString.cs using Guid(b7efa857135ee3242bb57cd8a91087c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9044dd7cb147da16eb610fc9e512d2e6') in 0.0125854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead8.wav
+  artifactKey: Guid(5af657d1b80f4cd43abca6cb7dc45270) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead8.wav using Guid(5af657d1b80f4cd43abca6cb7dc45270) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7756eebe5caa8cb010fb952cbfab4c2') in 0.0619386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead3.wav
+  artifactKey: Guid(846025d21c618d8488d64ff84e048dd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead3.wav using Guid(846025d21c618d8488d64ff84e048dd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bfc5d64cc5e2b2c1757fec2dc512392') in 0.0558597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Extras/Scripts/LeanSelectableGraphicColor.cs
+  artifactKey: Guid(0e3837cd44482a8459c76be5c56a41d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Extras/Scripts/LeanSelectableGraphicColor.cs using Guid(0e3837cd44482a8459c76be5c56a41d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '774580dcc65381b9e50af19308680fc9') in 0.0097864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Demo.prefab
+  artifactKey: Guid(298daca7decb9f846b5ff996ee97a495) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Prefabs/Demo.prefab using Guid(298daca7decb9f846b5ff996ee97a495) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '816cefe8dd88cc1cf2e07fbe3f41a937') in 0.0369122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Hat_Thor.fbx
+  artifactKey: Guid(29721c95c9068e149b0d86bf6039157c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/SetFull/Set 5/Hat_Thor.fbx using Guid(29721c95c9068e149b0d86bf6039157c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cabc4e90ad416f78d1af90e95351ecce') in 0.0300639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Shaders/CW_HDRP.surfshader
+  artifactKey: Guid(f9171443d9b9d6a43828384e72e752f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Shaders/CW_HDRP.surfshader using Guid(f9171443d9b9d6a43828384e72e752f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '213f75e40e9f99293f4c5c2e596a4688') in 0.0100323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwFollow.cs
+  artifactKey: Guid(2d2927631b10c2f4b9ce492ed53fd69b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwFollow.cs using Guid(2d2927631b10c2f4b9ce492ed53fd69b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0243225805957c4d9c5a4c4254f1e69f') in 0.0096267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs
+  artifactKey: Guid(2eb96458d5d3d8a418388ebad98e1bc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Required/Scripts/CwShaderBundle.cs using Guid(2eb96458d5d3d8a418388ebad98e1bc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd97eaf865d2115fdba7f2b3c985dc8b') in 0.0106395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwInputManager.cs
+  artifactKey: Guid(8da33d20535c346499a0c78cabe4d750) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwInputManager.cs using Guid(8da33d20535c346499a0c78cabe4d750) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60b2020fa6b02999c2bf289f4a4c7dbb') in 0.010844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs
+  artifactKey: Guid(ee2055732bd5a4a4a8f4fe43e20eca6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemoButtonBuilder.cs using Guid(ee2055732bd5a4a4a8f4fe43e20eca6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '373bf4de0567550ef3e631c97df43227') in 0.0098953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs
+  artifactKey: Guid(4cabc7c514a17ca41a6c62cc43dcb94d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwCameraMove.cs using Guid(4cabc7c514a17ca41a6c62cc43dcb94d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df97a80b22e5fdf2998ba3ba5612718e') in 0.0109463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs
+  artifactKey: Guid(40a2a791e0ffb554885467adbda44772) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Required/Scripts/CwGuide.cs using Guid(40a2a791e0ffb554885467adbda44772) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6935ccce2d644a205687fd19d359fa3') in 0.0107441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Shaders/CW_Fog.surfshader
+  artifactKey: Guid(c380c905cdd28fe49a2d9057dafec632) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Shaders/CW_Fog.surfshader using Guid(c380c905cdd28fe49a2d9057dafec632) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4d823f30916c43a4e48ba4d02cbb61f') in 0.0087284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Materials/Skybox.mat
+  artifactKey: Guid(17380c24072c0954898ab03528ac9077) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Materials/Skybox.mat using Guid(17380c24072c0954898ab03528ac9077) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41de630c0508419360581de9fec73e1c') in 0.0167474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwSeedAttribute.cs
+  artifactKey: Guid(d0c2debde2a068741bac1cf9efca66ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwSeedAttribute.cs using Guid(d0c2debde2a068741bac1cf9efca66ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d3470804c06167d319e9c1d1be57867') in 0.0106041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead1.wav
+  artifactKey: Guid(6996f242dcb39ad4a973c0d0390fe84e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead1.wav using Guid(6996f242dcb39ad4a973c0d0390fe84e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5fd6ad423553265c84028a406fe11df') in 0.0561635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Required/Shaders/ShapeOutline.shader
+  artifactKey: Guid(c55a8fe4b61dcfb41a8aaa1869b89fed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Required/Shaders/ShapeOutline.shader using Guid(c55a8fe4b61dcfb41a8aaa1869b89fed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e8ff7bb66506dec754552da85e52627') in 0.0125364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Plugins/CW/LeanPool/Required/Scripts/LeanPool.cs
+  artifactKey: Guid(f3fe984997ad302409b2ad4e270c1c8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Required/Scripts/LeanPool.cs using Guid(f3fe984997ad302409b2ad4e270c1c8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54425ea962b6546ef96062fc658144b7') in 0.0097965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Materials/Orange.mat
+  artifactKey: Guid(d15897a066fc1bd4e873db20d70da822) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Materials/Orange.mat using Guid(d15897a066fc1bd4e873db20d70da822) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd02cccd5e9616b037779af4b1e70b7f4') in 0.0173436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Materials/White.mat
+  artifactKey: Guid(c4dab12b6ad08384ba8a3ce2f7eba5f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Materials/White.mat using Guid(c4dab12b6ad08384ba8a3ce2f7eba5f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85b623000b932cd31133b241a4eb36f6') in 0.0164355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwDepthTextureMode.cs
+  artifactKey: Guid(543105670369c7e49b28b587c69ad997) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Extras/Scripts/CwDepthTextureMode.cs using Guid(543105670369c7e49b28b587c69ad997) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e56f115284c8a7812edf91e540e0a1fb') in 0.0100268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs
+  artifactKey: Guid(a5270a8e97f926a4bbcf95d4fa31866d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Scripts/CwDemo.cs using Guid(a5270a8e97f926a4bbcf95d4fa31866d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '920d6178431d0c56349d3e1634eb9ccd') in 0.0112896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Plugins/CW/LeanCommon/Examples/Prefabs/RoundedCube.prefab
+  artifactKey: Guid(98bcf37801e348c44b1dc78b7af0bb77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanCommon/Examples/Prefabs/RoundedCube.prefab using Guid(98bcf37801e348c44b1dc78b7af0bb77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '300f5c878b85b2b11ea52bd386646e23') in 0.0253376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/CW/LeanPool/Examples/Prefabs/Rigidbody Cube.prefab
+  artifactKey: Guid(4be75445e7585a24da472b670d73768a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Examples/Prefabs/Rigidbody Cube.prefab using Guid(4be75445e7585a24da472b670d73768a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e422abfeb55ee30a5c79e9fb062cf7b0') in 0.028588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/CW/LeanPool/Examples/Scripts/LeanPoolDebugger.cs
+  artifactKey: Guid(9a59bf981769e4a4f9230599cab9261a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Examples/Scripts/LeanPoolDebugger.cs using Guid(9a59bf981769e4a4f9230599cab9261a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f64b2e8e67d9f6d8ffaa1d1c8e6fe9b') in 0.0109526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Shaders/RimAlpha.shader
+  artifactKey: Guid(0d949f33aae55df4d92d64ec31581556) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Shaders/RimAlpha.shader using Guid(0d949f33aae55df4d92d64ec31581556) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12e950db89d65cacda5ead3955b3a3ec') in 0.0134763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Required/Scripts/CwInput.cs
+  artifactKey: Guid(fbb4d9a834e3b5b43801419bceffc9cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Required/Scripts/CwInput.cs using Guid(fbb4d9a834e3b5b43801419bceffc9cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2e442751deec8010e4b6938625d5eb4') in 0.0114545 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Plugins/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody2D.cs
+  artifactKey: Guid(3be0ffe700121dc4fb048e0d7b200524) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/LeanPool/Extras/Scripts/LeanPooledRigidbody2D.cs using Guid(3be0ffe700121dc4fb048e0d7b200524) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1132dd75806aab6daba51b70b4d505dc') in 0.0111297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead5.wav
+  artifactKey: Guid(557b41edafe873347ab6bb381cd77b98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/dead/baby/stickman_dead5.wav using Guid(557b41edafe873347ab6bb381cd77b98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50157e34da2693b0418186536c036fea') in 0.0746013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit3.wav
+  artifactKey: Guid(d12e98df008c50b40bcf93b3676aa50d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/New 1/weapon_hit3.wav using Guid(d12e98df008c50b40bcf93b3676aa50d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5fdfe66d0588e4d63eb6c2497433001') in 0.0547557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Knife_1.mat
+  artifactKey: Guid(48eff8e1e8a25dc4185142d346dbfc52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Skin/Materials/Knife_1.mat using Guid(48eff8e1e8a25dc4185142d346dbfc52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a4b5dc036d4091bfbbfeefa343f059a6') in 0.0197921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 5.mp3
+  artifactKey: Guid(bf63cb033e5e6ef4e9bfe5553e44cbae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/Sound/fix/Vu khi va cham 5.mp3 using Guid(bf63cb033e5e6ef4e9bfe5553e44cbae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7a2dd70e0f2af89086718c9af38c0b0') in 0.0522866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy.png
+  artifactKey: Guid(e4d349a1e99479b42882cbf208c4e894) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/3D/CharSkin/Pants/comy.png using Guid(e4d349a1e99479b42882cbf208c4e894) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc7f5d58110d97f437058e30e1a06347') in 0.0347047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Plugins/CW/Shared/Common/Examples/Textures/DemoLeft.png
+  artifactKey: Guid(8548d034b532fc64f9e26ecfe5f35ff7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Plugins/CW/Shared/Common/Examples/Textures/DemoLeft.png using Guid(8548d034b532fc64f9e26ecfe5f35ff7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df61e1b0edfedbd2ae5b2832bc56666b') in 0.0396401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose2.psd
+  artifactKey: Guid(b8fecf3f6af35ea4e85896b165911da7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Internship_BT4_MoveStopMove/GUI/Popup_EndGame/Zombie/Fra-Day_Lose2.psd using Guid(b8fecf3f6af35ea4e85896b165911da7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '840c9fdc7b1d9c64bdcc8cf4be634bd5') in 0.0355574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de75e979d446e4cbc4bd1d171bfeac84') in 0.015324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

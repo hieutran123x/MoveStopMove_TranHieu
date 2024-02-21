@@ -44,6 +44,9 @@ public class Character : MonoBehaviour
 
     public GameObject attackRangeCircle;
 
+    //audio
+    //[SerializeField] private GameObject soundEffectsSource;
+    //private AudioSource soundEffectsAudioSource;
     protected virtual void Update()
     {
         //if (!IsDead)
@@ -76,6 +79,7 @@ public class Character : MonoBehaviour
         }
 
         ScaleAttackRangeCircle();
+        //soundEffectsAudioSource = soundEffectsSource.GetComponentInChildren<AudioSource>();
     }
 
 
@@ -152,6 +156,7 @@ public class Character : MonoBehaviour
         Debug.Log(IsDead);
         ChangeAnim(Constant.ANIM_DIE);
         Invoke(nameof(OnDespawn), 2f);
+        
     }
 
     protected virtual void OnDespawn()
@@ -203,7 +208,7 @@ public class Character : MonoBehaviour
             bullet.OnInit(this);
             //bullet.bulletRigidbody.velocity = direction.normalized * 5f;
             bullet.bulletRigidbody.velocity = direction.normalized * attackSpeed;
-
+            
 
             // Set the cooldown timer
             lastAutoAttackTime = Time.time;
